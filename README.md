@@ -25,7 +25,7 @@ sudo ifconfig ib0 192.168.12.3 netmask 255.255.255.0 up
 ```
 
 # Running the system
-The following examples use the input [twitter7](https://sparse.tamu.edu/SNAP/twitter7) (from the next section). Here are the commands run on both the client and server.
+The following examples use the input [MOLIERE_2016](https://sparse.tamu.edu/Sybrandt/MOLIERE_2016) (from the next section). Here are the commands run on both the client and server.
 
 ## Breadth First Search
 Server Command
@@ -34,7 +34,7 @@ Server Command
 ```
 Client Command
 ```
-./main -m client -k bfs -i /mnt/graphs/fam-graph/sk-2005-undirected.idx -t 10 --start-vertex 1
+./main -m client -k bfs -i /mnt/graphs/fam-graph/MOLIERE.adj -t 10 --start-vertex 1
 ```
 ## Pagerank
 Server Command
@@ -75,7 +75,7 @@ Client Command
 
 # Obtaining Inputs
 The inputs used in the FAM-Graph paper are from [https://sparse.tamu.edu/](https://sparse.tamu.edu/). The exact inputs used are:
--[AGATHA_2015](https://sparse.tamu.edu/Sybrandt/AGATHA_2015)
--[MOLIERE_2016](https://sparse.tamu.edu/Sybrandt/MOLIERE_2016)
--[sk-2005](https://sparse.tamu.edu/LAW/sk-2005)
--[twitter7](https://sparse.tamu.edu/SNAP/twitter7)
+- [AGATHA_2015](https://sparse.tamu.edu/Sybrandt/AGATHA_2015)
+- [MOLIERE_2016](https://sparse.tamu.edu/Sybrandt/MOLIERE_2016)
+- [sk-2005](https://sparse.tamu.edu/LAW/sk-2005)
+- [twitter7](https://sparse.tamu.edu/SNAP/twitter7)
